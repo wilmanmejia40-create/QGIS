@@ -1,1 +1,128 @@
+¿Qué es un SIG?
+SIG significa Sistema de Información Geográfica. Combina datos digitales, computadora y software para trabajar con información georreferenciada,
+es decir, datos que están asociados a una ubicación terrestre.
+No es solamente “hacer mapas”: un SIG permite relacionar capas —por ejemplo, ríos, municipios, suelos, carreteras y áreas boscosas
+para responder preguntas como: ¿dónde están las zonas con mayor riesgo de erosión? o ¿qué comunidades se encuentran aguas abajo de una 
+fuente de contaminación?
 
+¿Para qué sirve un SIG?
+Un SIG sirve para visualizar, editar, consultar, analizar y comunicar información territorial. Con una aplicación SIG se pueden abrir mapas
+digitales, crear información espacial nueva, generar mapas impresos personalizados y realizar análisis espaciales.
+
+| Función                | Ejemplo ambiental                                                           |
+| ---------------------- | --------------------------------------------------------------------------- |
+| Visualizar capas       | Ver ríos, límites municipales, bosques y carreteras en un mismo mapa        |
+| Analizar el territorio | Identificar áreas con pendientes fuertes cerca de fuentes de agua           |
+| Monitorear cambios     | Comparar pérdida de bosque entre dos fechas                                 |
+| Planificar             | Seleccionar sitios adecuados para reforestación, reservas o infraestructura |
+| Comunicar decisiones   | Elaborar mapas claros para autoridades, comunidades y proyectos             |
+
+
+¿Qué es QGIS?
+QGIS (Quantum GIS) es una aplicación SIG libre, gratuita y multiplataforma. Permite trabajar con datos vectoriales —puntos, líneas y polígonos— 
+y datos ráster, como imágenes satelitales, modelos de elevación y mapas escaneados.
+QGIS puede usarse en Windows, macOS y Linux. Es una alternativa sin costo a software SIG comercial y permite cargar capas, crear mapas temáticos,
+medir áreas, hacer consultas y ejecutar análisis geoespaciales.
+
+
+Aplicaciones de QGIS en la gestión ambiental.
+En gestión ambiental, QGIS se usa para convertir información dispersa en decisiones basadas en el territorio. Entre sus aplicaciones más comunes están:
+
+Manejo de cuencas: delimitar microcuencas, analizar redes hídricas, pendientes y usos del suelo.
+
+Cobertura forestal y deforestación: comparar imágenes satelitales de distintos años y estimar cambios de bosque.
+
+Áreas protegidas y biodiversidad: mapear límites de reservas, hábitats, registros de especies y corredores biológicos.
+
+Evaluación de impacto ambiental: ubicar proyectos, identificar comunidades, cuerpos de agua y zonas sensibles cercanas.
+
+Riesgos y desastres: analizar zonas inundables, erosión, incendios forestales y áreas expuestas a amenazas.
+
+Calidad y disponibilidad de agua: relacionar fuentes de agua, puntos de muestreo, actividades productivas y límites de cuencas.
+
+Ordenamiento territorial: apoyar la planificación del uso del suelo con mapas de aptitud, restricciones y conflictos.
+
+
+Ejemplos de uso en Honduras.
+
+En los municipios de Güinope y Morocelí se implementó un SIG municipal con QGIS, que incluyó bases de datos por microcuenca, cartografía de usos y coberturas de la 
+tierra, red hídrica, vías, límites administrativos, sistemas de agua, elevación y pendientes. El objetivo fue facilitar la planificación y el manejo de recursos
+naturales por parte de autoridades municipales y comunitarias.
+
+En la cuenca del Lago de Yojoa, se contempló una plataforma para visualizar resultados del balance hídrico generados con HydroBID WaterALLOC y herramientas SIG
+como ArcGIS o QGIS, orientada a estimar la oferta y demanda de agua.
+
+En el proyecto de seguridad hídrica del Corredor Seco de Honduras, se utilizó QGIS para georreferenciar y analizar el área de incidencia del proyecto, dentro de 
+una evaluación ambiental y social.
+
+En Honduras también se emplean capas de áreas protegidas, microcuencas, cobertura forestal, fallas geológicas, suelos y recursos naturales para apoyar la gestión 
+ambiental municipal.
+
+
+Requisitos para comenzar.
+Para iniciar no necesitas experiencia previa avanzada; el manual oficial de QGIS está diseñado incluso para personas sin conocimientos previos de SIG.
+
+*Computadora con Windows, macOS o Linux.
+
+*Conexión a internet para descargar el instalador y datos de práctica.
+
+*Espacio suficiente en disco; se recomienda contar con varios GB libres.
+
+*Datos geográficos de práctica: shapefiles, archivos GeoPackage, imágenes satelitales o mapas ráster.
+
+*Un proyecto o tema de interés, por ejemplo: “mapa de cobertura forestal de mi municipio” o “identificación de zonas de riesgo cerca de un río”.
+
+
+Instalación del programa.
+Entra a la página oficial de descargas: https://qgis.org/download/
+
+.
+Selecciona tu sistema operativo: Windows, macOS o Linux.
+
+Para Windows, descarga el instalador independiente (Standalone Installer). La versión LTR (Long Term Release) es recomendable para principiantes porque recibe mantenimiento de largo plazo; QGIS también publica una versión más reciente.
+
+Ejecuta el archivo descargado, acepta la licencia y deja la carpeta de instalación sugerida.
+
+Mantén seleccionado QGIS entre los componentes y pulsa Instalar.
+
+Al finalizar, abre QGIS Desktop desde el menú de inicio o el acceso directo creado.
+
+Los instaladores independientes incluyen todo lo necesario en una sola descarga; una vez instalado, no se requiere internet para usar el programa.
+
+Primer acercamiento al curso
+Tu primer objetivo debe ser familiarizarte con la interfaz y crear un mapa sencillo. El manual oficial de aprendizaje de QGIS comienza con la creación y exploración de un mapa básico, incluyendo una lección sobre la interfaz.
+
+Ruta sugerida para la primera semana
+*Instalar QGIS y abrir el programa.
+
+*Conocer la interfaz: panel de capas, navegador, barra de herramientas, lienzo del mapa y panel de atributos.
+
+*Cargar una capa vectorial, por ejemplo, límites municipales, ríos o comunidades.
+
+*Cargar una capa ráster, como una imagen satelital o un modelo digital de elevación.
+
+*Cambiar colores y símbolos para diferenciar bosque, agua, cultivos, carreteras y áreas urbanas.
+
+*Hacer una consulta básica, por ejemplo, seleccionar solo los ríos de un municipio.
+
+*Medir distancias y áreas, útil para calcular superficie de bosque o longitud de un río.
+
+*Exportar un mapa con título, leyenda, escala, norte y fuentes de datos.
+
+
+Primer acercamiento al curso.
+
+Crea un mapa de tu municipio o departamento en Honduras con estas capas:
+
+*Límite administrativo.
+
+*Ríos y cuerpos de agua.
+
+*Carreteras principales.
+
+*Cobertura o uso del suelo, si está disponible.
+
+*Puntos de interés ambiental: manantiales, áreas protegidas, rellenos, plantas de tratamiento o zonas de reforestación.
+
+*Después, responde una pregunta sencilla: ¿qué comunidades o carreteras están más cerca de un río o de un área protegida? Ese ejercicio te introduce 
+en la lógica esencial de un SIG: combinar capas para obtener información útil para la gestión ambiental
